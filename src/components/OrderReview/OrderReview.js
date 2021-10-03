@@ -25,7 +25,9 @@ const OrderReview = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart}>
+          <p>hello world</p>
+        </Cart>
       </div>
     </div>
   );
